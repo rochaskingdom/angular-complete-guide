@@ -1,5 +1,9 @@
+<!--<label>Server Name-->
+<!--  <input type="text" class="form-control" (input)="onUpdateServerName($event)">-->
+<!--  <p>{{serverName}}</p>-->
+<!--</label>-->
 <label>Server Name
-  <input type="text" class="form-control" (input)="onUpdateServerName($event)">
+  <input type="text" class="form-control" [(ngModel)]="serverName">
   <p>{{serverName}}</p>
 </label>
 <hr>
